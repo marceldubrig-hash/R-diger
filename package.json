@@ -1,0 +1,6 @@
+{
+  "name":"ruediger",
+  "version":"0.1.0",
+  "private":true,
+  "scripts":{"check":"node --check app.js"}
+}
