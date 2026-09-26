@@ -20,6 +20,8 @@ CC0: https://creativecommons.org/publicdomain/zero/1.0/
 
 - **Dachshunds.jpg** – Psdubow, Wikimedia Commons, Public Domain.  
   https://commons.wikimedia.org/wiki/File:Dachshunds.jpg
+- **Dackel.jpg** – Galilea, Wikimedia Commons, Public Domain. Verwendet als PWA-App-Icon.  
+  https://commons.wikimedia.org/wiki/File:Dackel.jpg
 - **CurryWurst.jpg** – Julio Costa Zambelli, Wikimedia Commons, CC BY-SA 3.0.  
   https://commons.wikimedia.org/wiki/File:CurryWurst.jpg
 - **Traffic cone.jpg** – paperdog2005, Wikimedia Commons, CC BY 2.0.  
