@@ -1,0 +1,11 @@
+{
+  "name":"RÜDIGER – Bundesamt für spontane Fehlentscheidungen",
+  "short_name":"RÜDIGER",
+  "description":"Ein maßlos überladenes Glücksrad mit deutscher Meme-Kultur.",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f1e8cf",
+  "theme_color":"#f1e8cf",
+  "orientation":"any",
+  "icons":[]
+}
