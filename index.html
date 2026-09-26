@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f1e8cf">
+  <meta name="description" content="RÜDIGER – Bundesamt für spontane Fehlentscheidungen. Ein maßlos überladenes Glücksrad mit deutscher Meme-Kultur.">
+  <title>RÜDIGER – Das Rad hat gesprochen.</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="crt"></div>
+  <header class="amt-header">
+    <div>
+      <div class="kicker">BUNDESAMT FÜR SPONTANE FEHLENTSCHEIDUNGEN</div>
+      <h1>RÜDIGER</h1>
+      <div class="subtitle">Das Rad hat gesprochen. Leider.</div>
+    </div>
+    <div class="amt-card">
+      <span>Aktenzeichen</span><strong id="aktenzeichen">RÜD-2026-0815</strong>
+      <span>Sachbearbeiter</span><strong>Rüdiger</strong>
+      <span>Status</span><strong class="blink">UNNÖTIG AKTIV</strong>
+    </div>
+  </header>
+
+  <div class="ticker" aria-hidden="true"><div id="tickerText">+++ EILMELDUNG: Rüdiger wurde erneut ohne fachliche Qualifikation zur Entscheidungsinstanz ernannt +++</div></div>
+
+  <main class="layout">
+    <section class="panel control-panel">
+      <div class="panel-title">FORMULAR RÜ-17b <span>Entscheidungsgegenstände</span></div>
+      <label for="choices">Eine Option pro Zeile. Unvernunft ist zulässig.</label>
+      <textarea id="choices" spellcheck="false">Döner
+Pizza
+Currywurst
+Tiefkühlpizza
+Bei Mutti
+Gar nichts – schlafen</textarea>
+      <div class="button-row">
+        <button id="applyBtn" class="office-btn">Übernehmen</button>
+        <button id="presetBtn" class="office-btn secondary">Amtliche Vorlage</button>
+      </div>
+
+      <div class="divider"></div>
+      <div class="field-label">Rüdiger-Betriebsart</div>
+      <div class="modes" role="group" aria-label="Rüdiger Modus">
+        <button class="mode active" data-mode="amt">🏢 AMT</button>
+        <button class="mode" data-mode="kirmes">🎪 KIRMES</button>
+        <button class="mode" data-mode="chaos">💀 CHAOS</button>
+        <button class="mode" data-mode="npc">🧍 NPC</button>
+      </div>
+
+      <div class="toggle-row">
+        <label><input id="soundToggle" type="checkbox" checked> Geräusche</label>
+        <label><input id="musicToggle" type="checkbox"> Fahrstuhlmusik des Untergangs</label>
+      </div>
+
+      <div class="bureaucracy-box">
+        <div><span>DIN-Konformität</span><strong id="dinValue">84%</strong></div>
+        <div><span>Restwürde</span><strong id="dignityValue">73%</strong></div>
+        <div><span>Amtliche Zweifel</span><strong id="doubtValue">11%</strong></div>
+        <div><span>Geringverdiener-Faktor</span><strong id="geringValue">6,4</strong></div>
+      </div>
+    </section>
+
+    <section class="wheel-zone">
+      <div class="sticker s1">GEPRÜFT<br>nach bestem<br>Halbwissen</div>
+      <div class="sticker s2">§ 0815<br>ABS. LOL</div>
+      <div class="pointer">▼</div>
+      <canvas id="wheel" width="760" height="760" aria-label="Glücksrad"></canvas>
+      <button id="spinBtn" class="spin-btn"><span>DREH</span><small>amtlich unverbindlich</small></button>
+      <div id="wheelHint" class="wheel-hint">Tippen. Rüdiger übernimmt ab hier keinerlei Verantwortung.</div>
+    </section>
+
+    <aside class="panel nonsense-panel">
+      <div class="panel-title">LIVE-LAGEBILD <span>völlig unnötig</span></div>
+      <div class="meter-card"><span>Drehmoment</span><div class="meter"><i id="torqueMeter"></i></div><b id="torqueText">0 Nm</b></div>
+      <div class="meter-card"><span>Entscheidungsqualität</span><div class="meter"><i id="qualityMeter"></i></div><b id="qualityText">fragwürdig</b></div>
+      <div class="counter-grid">
+        <div><b id="spinCount">0</b><span>Drehungen</span></div>
+        <div><b id="rerollCount">0</b><span>Einsprüche</span></div>
+      </div>
+
+      <button id="ruedigerBtn" class="ruediger-btn">RÜDIGER-KNOPF<br><small>Nicht drücken.</small></button>
+      <div id="ruedigerLog" class="log">20:29: Rüdiger wartet passiv-aggressiv.</div>
+
+      <div class="media-strip">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dachshunds.jpg?width=700" alt="Zwei Dackel auf einem Sofa" loading="lazy">
+        <div class="media-caption">AMTLICHER DACKEL<br><small>hat keine Zuständigkeit</small></div>
+      </div>
+    </aside>
+  </main>
+
+  <section class="meme-belt">
+    <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/CurryWurst.jpg?width=700" alt="Currywurst" loading="lazy"><figcaption>Referat Verpflegung</figcaption></figure>
+    <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Traffic_cone.jpg?width=500" alt="Verkehrskegel" loading="lazy"><figcaption>Kranplatzbeauftragter</figcaption></figure>
+    <figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fax%20Machine.jpg?width=700" alt="Faxgerät" loading="lazy"><figcaption>Digitale Transformation</figcaption></figure>
+    <div class="quote-wall">
+      <span>BRUDER MUSS LOS</span><span>ANZEIGE IST RAUS</span><span>WAS LETZTE ENTSCHEIDUNG?</span><span>KANNSTE DIR NICHT AUSDENKEN</span><span>RÜDIGER NICHT SO TIEF!</span>
+    </div>
+  </section>
+
+  <div id="resultModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="resultTitle">
+    <div class="modal-card">
+      <div class="red-stamp">GENEHMIGT</div>
+      <div class="modal-kicker">AMTLICHER BESCHLUSS</div>
+      <h2 id="resultTitle">Döner</h2>
+      <p id="resultComment">Rüdiger hat entschieden. Diskussion beendet.</p>
+      <div id="resultMeta" class="result-meta"></div>
+      <div class="modal-actions">
+        <button id="acceptBtn" class="office-btn accept">Beschluss akzeptieren</button>
+        <button id="rerollBtn" class="office-btn danger">Einspruch einlegen</button>
+      </div>
+      <small class="fineprint">Dieser Bescheid wurde maschinell erstellt und ist auch ohne Sinn gültig.</small>
+    </div>
+  </div>
+
+  <div id="chaosOverlay" class="chaos-overlay hidden" aria-live="polite"></div>
+
+  <audio id="music" loop preload="none" src="https://opengameart.org/sites/default/files/wackyidlings_0.ogg"></audio>
+  <audio id="spinSfx" preload="none" src="https://opengameart.org/sites/default/files/spinning_0.ogg"></audio>
+  <audio id="winSfx" preload="none" src="https://opengameart.org/sites/default/files/winfretless_0.ogg"></audio>
+
+  <footer>
+    <b>RÜDIGER v0.1 – Pilotverfahren</b>
+    <span>Medienquellen & Lizenzen: <a href="ASSET_SOURCES.md">ASSET_SOURCES.md</a></span>
+    <span>Keine Behörde wurde bei der Entwicklung konsultiert.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
