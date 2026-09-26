@@ -7,5 +7,18 @@
   "background_color":"#f1e8cf",
   "theme_color":"#f1e8cf",
   "orientation":"any",
-  "icons":[]
+  "icons":[
+    {
+      "src":"https://commons.wikimedia.org/wiki/Special:FilePath/Dackel.jpg?width=192",
+      "sizes":"192x192",
+      "type":"image/jpeg",
+      "purpose":"any"
+    },
+    {
+      "src":"https://commons.wikimedia.org/wiki/Special:FilePath/Dackel.jpg?width=512",
+      "sizes":"512x512",
+      "type":"image/jpeg",
+      "purpose":"any"
+    }
+  ]
 }
