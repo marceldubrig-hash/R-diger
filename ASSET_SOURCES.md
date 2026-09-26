@@ -24,7 +24,7 @@ CC0: https://creativecommons.org/publicdomain/zero/1.0/
   https://commons.wikimedia.org/wiki/File:CurryWurst.jpg
 - **Traffic cone.jpg** – paperdog2005, Wikimedia Commons, CC BY 2.0.  
   https://commons.wikimedia.org/wiki/File:Traffic_cone.jpg
-- **Fax Machine.jpg** – পাপৰি বৰা, Wikimedia Commons. Lizenzdetails stehen auf der Dateiseite und sind bei Weiterverwendung zu beachten.  
+- **Fax Machine.jpg** – পাপৰি বৰা, Wikimedia Commons, CC BY-SA 4.0.  
   https://commons.wikimedia.org/wiki/File:Fax_Machine.jpg
 
 Die App lädt die Bilddateien direkt von Wikimedia Commons. Bildunterschriften in RÜDIGER sind humoristische UI-Texte und keine Aussagen der Urheber.
